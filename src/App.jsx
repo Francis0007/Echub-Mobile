@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import { Home } from "./components/Home"; 
 import { Ongoingprojects } from "./components/Ongoingprojects"; 
 import { Navbar } from "./components/Navbar";
-import { Notification } from "./components/notification";
+import { Notification } from "./components/Notification";
 import { Profile } from "./components/profile";
 import { Dropdownnav } from "./components/dropdownnav"
  
