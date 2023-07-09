@@ -1,0 +1,24 @@
+/*start of notification*/
+.notification{
+    min-width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .noti{
+    display: flex;
+    min-width: 300px;
+  }
+  .notiright{
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .notiright p{
+    font-size: 12px;
+    color: #555;
+    margin-top: -7px;
+  }
+  hr{
+    margin-left: 10px;
+  }
+  /*end of notification*/
+  

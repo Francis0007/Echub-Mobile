@@ -1,0 +1,20 @@
+.profile{
+    width: 100%;
+     margin-top: 10px;
+    left: 0;
+     right: 0;
+     text-align: center;
+   }
+   .profilepicture{
+     margin-top: -130px;
+   }
+   .profile label{
+    margin-left: -220px;
+    width: 100%;
+    display: inline;
+   }
+   input[type='text']{
+    border: 1px solid gray;
+    border-radius: 10px 10px 10px 10px;
+   }
+   /*end of profile*/

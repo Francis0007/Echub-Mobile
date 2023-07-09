@@ -26,14 +26,14 @@ export const Home = () => {
 
             <div className="ongoingjobs">
                 <div className="ongoing1"><h2>Ongoing Jobs <br /><br /> 0</h2></div>
-                <div className="ongoing1"><h2>0 <br /><br /> <img src="images/play.svg" /></h2></div>
+                <div className="ongoing1"><h2>0 <br /><br /> <Link to="/ongoingprojects"><img src="images/play.svg" /></Link></h2></div>
                 
             </div>
 
             
             <div className="ongoingjobs">
                 <div className="ongoing1"><h2>Project Completed <br /><br /> 0</h2></div>
-                <div className="ongoing1"><h2>0 <br /><br /> <img src="images/play.svg" /></h2></div>
+                <div className="ongoing1"><h2>0 <br /><br /> <Link to="/completedprojects"><img src="images/play.svg" /></Link></h2></div>
                 
             </div>
 
