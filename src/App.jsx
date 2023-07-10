@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./components/Home"; 
-import { Ongoingprojects } from "./components/Ongoingprojects"; 
+import { Home } from "./components/home"; 
+import { Ongoingprojects } from "./components/ongoingprojects"; 
 import { Navbar } from "./components/Navbar";
-import { Notification } from "./components/Notification";
-import { Profile } from "./components/Profile";
-import { Dropdownnav } from "./components/Dropdownnav";
-import { Completedprojects } from "./components/Completedprojects";
+import { Notification } from "./components/notification";
+import { Profile } from "./components/profile";
+import { Dropdownnav } from "./components/dropdownnav";
+import { Completedprojects } from "./components/completedprojects";
  
 
 function App() {
