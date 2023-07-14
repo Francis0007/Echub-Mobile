@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./components/home"; 
-import { Ongoingprojects } from "./components/ongoingprojects"; 
+import { Home } from "./components/Home"; 
+import { Ongoingprojects } from "./components/Ongoingprojects"; 
 import { Navbar } from "./components/Navbar";
-import { Notification } from "./components/notification";
-import { Profile } from "./components/profile";
-import { Dropdownnav } from "./components/dropdownnav";
-import { Completedprojects } from "./components/completedprojects";
+import { Notification } from "./components/Notification";
+import { Profile } from "./components/Profile";
+import { Dropdownnav } from "./components/Dropdownnav";
+import { Completedprojects } from "./components/Completedprojects";
  
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
 <Navbar />
 <Routes>
   <Route path="/" element={<Home />} />
-  <Route path="ongoingprojects" element={<Ongoingprojects />} />
-  <Route path="notification" element={<Notification />} />
-  <Route path="profile" element={<Profile />} />
-  <Route path="dropdownnav" element={<Dropdownnav />} />
-  <Route path="completedprojects" element={<Completedprojects />} />
+  <Route path="/ongoingprojects" element={<Ongoingprojects />} />
+  <Route path="/notification" element={<Notification />} />
+  <Route path="/profile" element={<Profile />} />
+  <Route path="/dropdownnav" element={<Dropdownnav />} />
+  <Route path="/completedprojects" element={<Completedprojects />} />
 </Routes>
 </>
   )
