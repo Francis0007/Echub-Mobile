@@ -1,4 +1,5 @@
 import "../Noti.css"
+import React from "react";
 
 export const Notification = () => {
     return (
