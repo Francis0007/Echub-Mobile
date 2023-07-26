@@ -1,13 +1,12 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Route , Routes } from 'react-router-dom';
-import { Home } from "./components/Home"; 
-import { Ongoingprojects } from "./components/Ongoingprojects"; 
-import { Navbar } from "./components/Navbar";
-import { Notification } from "./components/Notification";
-import { Profile } from "./components/Profile";
-import { Dropdownnav } from "./components/Dropdownnav";
-import { Completedprojects } from "./components/Completedprojects";
+import { Route ,Routes} from 'react-router-dom';
+import  Home  from "./components/Home"; 
+import  Ongoingprojects  from "./components/Ongoingprojects"; 
+import  Navbar  from "./components/Navbar";
+import  Notification  from "./components/Notification";
+import  Profile  from "./components/Profile";
+import  Dropdownnav  from "./components/Dropdownnav";
+import  Completedprojects  from "./components/Completedprojects";
  
 
 function App() {
