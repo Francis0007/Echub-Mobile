@@ -3,7 +3,7 @@ import "../App.css"
 import React from "react";
 
 
-export const Completedprojects = () => {
+ const Completedprojects = () => {
     return (
 <>
 <div className="completedprojects"><br /><br /><br /><br />
@@ -44,3 +44,4 @@ export const Completedprojects = () => {
 </>
     )
 }
+export default Completedprojects;

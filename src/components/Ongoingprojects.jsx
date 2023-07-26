@@ -2,7 +2,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import React from "react";
 
-export const Ongoingprojects = () => {
+ const Ongoingprojects = () => {
     return (
 <>
 <div className="ongoingprojects"><br /><br /><br /><br />
@@ -23,3 +23,4 @@ export const Ongoingprojects = () => {
 </>
     )
 }
+export default Ongoingprojects;

@@ -2,7 +2,7 @@ import "../App.css"
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Dropdownnav = () => {
+ const Dropdownnav = () => {
     return (
      <>
  
@@ -26,3 +26,5 @@ export const Dropdownnav = () => {
      </>
     )
 }
+
+export default Dropdownnav;

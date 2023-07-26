@@ -1,7 +1,7 @@
 import "../Noti.css"
 import React from "react";
 
-export const Notification = () => {
+ const Notification = () => {
     return (
 <>
 <div className="notification"><br /><br />
@@ -48,3 +48,4 @@ export const Notification = () => {
     </>
     )
 }
+export default Notification;
