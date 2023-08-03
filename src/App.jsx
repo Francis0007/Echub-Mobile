@@ -1,5 +1,5 @@
 import React from "react";
-import { Route ,Routes} from 'react-router-dom';
+import { Route , Routes} from 'react-router-dom';
 import  Home  from "./components/Home"; 
 import  Ongoingprojects  from "./components/Ongoingprojects"; 
 import  Navbar  from "./components/Navbar";
